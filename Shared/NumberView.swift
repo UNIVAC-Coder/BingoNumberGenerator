@@ -2,8 +2,8 @@
 //  NumberView.swift
 //  BingoNumberGenerator
 //
-//  Created by Tom Cavalli on 8/13/21.
-//
+//  Copyright 2021 Thomas Cavalli on 8/9/21.
+//  MIT License
 
 import SwiftUI
 

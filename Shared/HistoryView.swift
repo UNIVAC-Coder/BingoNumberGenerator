@@ -2,8 +2,8 @@
 //  History.swift
 //  BingoNumberGenerator
 //
-//  Created by Tom Cavalli on 9/25/21.
-//
+//  Copyright 2021 Thomas Cavalli on 8/9/21.
+//  MIT License
 
 import SwiftUI
 var a: String = ""

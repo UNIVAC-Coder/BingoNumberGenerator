@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20029F026FCD4D200C2904C /* SmallNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20029EF26FCD4D200C2904C /* SmallNumberView.swift */; };
+		E20029F126FCD4D200C2904C /* SmallNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20029EF26FCD4D200C2904C /* SmallNumberView.swift */; };
+		E227801426FFB89E0025CD4B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227801326FFB89E0025CD4B /* HistoryView.swift */; };
+		E227801526FFB89E0025CD4B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227801326FFB89E0025CD4B /* HistoryView.swift */; };
+		E27D1CF226E945F400A6FDB9 /* BigLetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D1CF126E945F400A6FDB9 /* BigLetterView.swift */; };
+		E27D1CF326E945F400A6FDB9 /* BigLetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27D1CF126E945F400A6FDB9 /* BigLetterView.swift */; };
+		E280398D26C2097D004FEA2D /* BingoNumberGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280397A26C2097B004FEA2D /* BingoNumberGeneratorApp.swift */; };
+		E280398E26C2097D004FEA2D /* BingoNumberGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280397A26C2097B004FEA2D /* BingoNumberGeneratorApp.swift */; };
+		E280398F26C2097D004FEA2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280397B26C2097B004FEA2D /* ContentView.swift */; };
+		E280399026C2097D004FEA2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280397B26C2097B004FEA2D /* ContentView.swift */; };
+		E280399126C2097D004FEA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E280397C26C2097C004FEA2D /* Assets.xcassets */; };
+		E280399226C2097D004FEA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E280397C26C2097C004FEA2D /* Assets.xcassets */; };
+		E28039A026C763FF004FEA2D /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280399F26C763FF004FEA2D /* NumberView.swift */; };
+		E28039A126C763FF004FEA2D /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E280399F26C763FF004FEA2D /* NumberView.swift */; };
+		E2823EC126FE886F0051BBB5 /* HistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2823EC026FE886F0051BBB5 /* HistogramView.swift */; };
+		E2823EC226FE886F0051BBB5 /* HistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2823EC026FE886F0051BBB5 /* HistogramView.swift */; };
+		E2823EC726FE89FE0051BBB5 /* BingoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2823EC626FE89FE0051BBB5 /* BingoView.swift */; };
+		E2823EC826FE89FE0051BBB5 /* BingoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2823EC626FE89FE0051BBB5 /* BingoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E20029EF26FCD4D200C2904C /* SmallNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallNumberView.swift; sourceTree = "<group>"; };
+		E227801326FFB89E0025CD4B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		E27D1CF126E945F400A6FDB9 /* BigLetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigLetterView.swift; sourceTree = "<group>"; };
+		E280397A26C2097B004FEA2D /* BingoNumberGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoNumberGeneratorApp.swift; sourceTree = "<group>"; };
+		E280397B26C2097B004FEA2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E280397C26C2097C004FEA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E280398126C2097D004FEA2D /* BingoNumberGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingoNumberGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E280398426C2097D004FEA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E280398926C2097D004FEA2D /* BingoNumberGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingoNumberGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E280398B26C2097D004FEA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E280398C26C2097D004FEA2D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E280399B26C209CC004FEA2D /* BingoNumberGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BingoNumberGenerator.entitlements; sourceTree = "<group>"; };
+		E280399F26C763FF004FEA2D /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
+		E2823EC026FE886F0051BBB5 /* HistogramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramView.swift; sourceTree = "<group>"; };
+		E2823EC626FE89FE0051BBB5 /* BingoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E280397E26C2097D004FEA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E280398626C2097D004FEA2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E280397426C2097B004FEA2D = {
+			isa = PBXGroup;
+			children = (
+				E280399B26C209CC004FEA2D /* BingoNumberGenerator.entitlements */,
+				E280397926C2097B004FEA2D /* Shared */,
+				E280398326C2097D004FEA2D /* iOS */,
+				E280398A26C2097D004FEA2D /* macOS */,
+				E280398226C2097D004FEA2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E280397926C2097B004FEA2D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E280397A26C2097B004FEA2D /* BingoNumberGeneratorApp.swift */,
+				E280397B26C2097B004FEA2D /* ContentView.swift */,
+				E27D1CF126E945F400A6FDB9 /* BigLetterView.swift */,
+				E280399F26C763FF004FEA2D /* NumberView.swift */,
+				E20029EF26FCD4D200C2904C /* SmallNumberView.swift */,
+				E2823EC626FE89FE0051BBB5 /* BingoView.swift */,
+				E2823EC026FE886F0051BBB5 /* HistogramView.swift */,
+				E227801326FFB89E0025CD4B /* HistoryView.swift */,
+				E280397C26C2097C004FEA2D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E280398226C2097D004FEA2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E280398126C2097D004FEA2D /* BingoNumberGenerator.app */,
+				E280398926C2097D004FEA2D /* BingoNumberGenerator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E280398326C2097D004FEA2D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E280398426C2097D004FEA2D /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E280398A26C2097D004FEA2D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E280398B26C2097D004FEA2D /* Info.plist */,
+				E280398C26C2097D004FEA2D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E280398026C2097D004FEA2D /* BingoNumberGenerator (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E280399526C2097D004FEA2D /* Build configuration list for PBXNativeTarget "BingoNumberGenerator (iOS)" */;
+			buildPhases = (
+				E280397D26C2097D004FEA2D /* Sources */,
+				E280397E26C2097D004FEA2D /* Frameworks */,
+				E280397F26C2097D004FEA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BingoNumberGenerator (iOS)";
+			productName = "BingoNumberGenerator (iOS)";
+			productReference = E280398126C2097D004FEA2D /* BingoNumberGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E280398826C2097D004FEA2D /* BingoNumberGenerator (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E280399826C2097D004FEA2D /* Build configuration list for PBXNativeTarget "BingoNumberGenerator (macOS)" */;
+			buildPhases = (
+				E280398526C2097D004FEA2D /* Sources */,
+				E280398626C2097D004FEA2D /* Frameworks */,
+				E280398726C2097D004FEA2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BingoNumberGenerator (macOS)";
+			productName = "BingoNumberGenerator (macOS)";
+			productReference = E280398926C2097D004FEA2D /* BingoNumberGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E280397526C2097B004FEA2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E280398026C2097D004FEA2D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					E280398826C2097D004FEA2D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E280397826C2097B004FEA2D /* Build configuration list for PBXProject "BingoNumberGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E280397426C2097B004FEA2D;
+			productRefGroup = E280398226C2097D004FEA2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E280398026C2097D004FEA2D /* BingoNumberGenerator (iOS) */,
+				E280398826C2097D004FEA2D /* BingoNumberGenerator (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E280397F26C2097D004FEA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E280399126C2097D004FEA2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E280398726C2097D004FEA2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E280399226C2097D004FEA2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E280397D26C2097D004FEA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27D1CF226E945F400A6FDB9 /* BigLetterView.swift in Sources */,
+				E2823EC126FE886F0051BBB5 /* HistogramView.swift in Sources */,
+				E227801426FFB89E0025CD4B /* HistoryView.swift in Sources */,
+				E20029F026FCD4D200C2904C /* SmallNumberView.swift in Sources */,
+				E2823EC726FE89FE0051BBB5 /* BingoView.swift in Sources */,
+				E280398F26C2097D004FEA2D /* ContentView.swift in Sources */,
+				E280398D26C2097D004FEA2D /* BingoNumberGeneratorApp.swift in Sources */,
+				E28039A026C763FF004FEA2D /* NumberView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E280398526C2097D004FEA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27D1CF326E945F400A6FDB9 /* BigLetterView.swift in Sources */,
+				E2823EC226FE886F0051BBB5 /* HistogramView.swift in Sources */,
+				E227801526FFB89E0025CD4B /* HistoryView.swift in Sources */,
+				E20029F126FCD4D200C2904C /* SmallNumberView.swift in Sources */,
+				E2823EC826FE89FE0051BBB5 /* BingoView.swift in Sources */,
+				E280399026C2097D004FEA2D /* ContentView.swift in Sources */,
+				E280398E26C2097D004FEA2D /* BingoNumberGeneratorApp.swift in Sources */,
+				E28039A126C763FF004FEA2D /* NumberView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E280399326C2097D004FEA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E280399426C2097D004FEA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E280399626C2097D004FEA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BingoNumberGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 201;
+				DEVELOPMENT_TEAM = 8VSCU6X7KN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomascavalli.BingoNumberGenerator;
+				PRODUCT_NAME = BingoNumberGenerator;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E280399726C2097D004FEA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BingoNumberGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 201;
+				DEVELOPMENT_TEAM = 8VSCU6X7KN;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomascavalli.BingoNumberGenerator;
+				PRODUCT_NAME = BingoNumberGenerator;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E280399926C2097D004FEA2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 201;
+				DEVELOPMENT_TEAM = 8VSCU6X7KN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomascavalli.BingoNumberGenerator;
+				PRODUCT_NAME = BingoNumberGenerator;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E280399A26C2097D004FEA2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 201;
+				DEVELOPMENT_TEAM = 8VSCU6X7KN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 2.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thomascavalli.BingoNumberGenerator;
+				PRODUCT_NAME = BingoNumberGenerator;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E280397826C2097B004FEA2D /* Build configuration list for PBXProject "BingoNumberGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E280399326C2097D004FEA2D /* Debug */,
+				E280399426C2097D004FEA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E280399526C2097D004FEA2D /* Build configuration list for PBXNativeTarget "BingoNumberGenerator (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E280399626C2097D004FEA2D /* Debug */,
+				E280399726C2097D004FEA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E280399826C2097D004FEA2D /* Build configuration list for PBXNativeTarget "BingoNumberGenerator (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E280399926C2097D004FEA2D /* Debug */,
+				E280399A26C2097D004FEA2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E280397526C2097B004FEA2D /* Project object */;
+}
